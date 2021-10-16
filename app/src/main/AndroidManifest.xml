@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jaesysz.ipl2021fansgame"
+    android:versionCode="5"
+    android:versionName="2.5">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher_new"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_new_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IPL2021FansGame">
+        <activity android:name=".views.admin.AdminDashActivity"></activity>
+        <activity android:name=".views.admin.AdminEntryActivity" />
+        <activity
+            android:name=".views.web.WebPageActivity"
+            android:hardwareAccelerated="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".views.user.PredictActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".views.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".views.user.DashboardActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".views.user.PredictDashboardActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".ui.user.DatabaseActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".ui.extra.UpdateAppActivity" />
+        <activity android:name=".ui.extra.ComingSoonActivity" />
+        <activity android:name=".ui.authentication.SettingsActivity" />
+        <activity android:name=".ui.user.MoreDetailsActivity" />
+        <activity android:name=".ui.user.HowToPlayActivity" />
+        <activity
+            android:name=".ui.user.PointTableActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".ui.user.MyPointsActivity" />
+        <activity
+            android:name=".ui.user.ScheduleActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".ui.admin.AdminDashboardActivity" />
+        <activity android:name=".ui.admin.AdminLoginActivity" />
+        <activity android:name=".ui.authentication.EmailNotVerifiedActivity" />
+        <activity android:name=".ui.authentication.RegisterActivity" />
+        <activity android:name=".ui.authentication.ForgotPasswordActivity" />
+        <activity android:name=".ui.authentication.LoginActivity" />
+        <activity android:name=".ui.web.IplHomeActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.user.PredictDashboardActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="12dp"
+        android:shadowColor="#4E4E4E"
+        android:shadowDx="12"
+        android:shadowDy="12"
+        android:shadowRadius="8"
+        android:text="Predict Match"
+        android:textAlignment="center"
+        android:textColor="#B71C1C"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/gradient_background"
+            android:gravity="end"
+            android:padding="2dp"
+            android:text="Today's / Upcoming-Next Match(s)"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/cardToday1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="4dp"
+           app:cardCornerRadius="5dp"
+           app:cardElevation="5dp">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginHorizontal="3dp"
+               android:orientation="horizontal"
+               android:paddingHorizontal="3dp">
+
+               <TextView
+                   android:id="@+id/tvMatchIndex"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_marginEnd="2dp"
+                   android:layout_weight="1"
+                   android:text="index" />
+
+               <TextView
+                   android:id="@+id/tvMatchNumber"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_marginHorizontal="2dp"
+                   android:layout_weight="1"
+                   android:text="Match" />
+
+               <TextView
+                   android:id="@+id/tvMatchDate"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="2dp"
+                   android:layout_weight="1"
+                   android:text="Date" />
+
+           </LinearLayout>
+               
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"  
+                 android:orientation="horizontal"
+                 android:layout_margin="4dp">
+                 
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical"
+                     android:gravity="center">
+                     
+                     <ImageView
+                         android:id="@+id/imgTeam1"
+                         android:layout_width="50dp"
+                         android:layout_height="50dp"
+                         android:src="@drawable/logo_na"/>
+
+                     <TextView
+                         android:id="@+id/tvTeam1"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="Team"/>
+                     
+                 </LinearLayout>
+                 
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:padding="4dp"
+                     android:layout_margin="4dp"
+                     android:text="vs"
+                     android:layout_gravity="center"/>
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical"
+                     android:gravity="center">
+
+                     <ImageView
+                         android:id="@+id/imgTeam2"
+                         android:layout_width="50dp"
+                         android:layout_height="50dp"
+                         android:src="@drawable/logo_na"/>
+
+                     <TextView
+                         android:id="@+id/tvTeam2"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="Team"/>
+
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="0dp"
+                     android:layout_height="match_parent"
+                     android:layout_margin="4dp"
+                     android:layout_weight="1"
+                     android:orientation="vertical">
+
+                     <TextView
+                         android:id="@+id/tvStadium"
+                         android:layout_width="match_parent"
+                         android:layout_height="0dp"
+                         android:textAlignment="textEnd"
+                         android:layout_weight="1"
+                         android:text="Stadium"
+                         android:textStyle="bold"/>
+
+                     <TextView
+                         android:id="@+id/tvVenue"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:textAlignment="textEnd"
+                         android:text="Venue"/>
+
+                 </LinearLayout>
+             </LinearLayout>
+           </LinearLayout>
+
+       </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardToday2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="3dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="3dp">
+
+                    <TextView
+                        android:id="@+id/tvMatchIndex2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="2dp"
+                        android:layout_weight="1"
+                        android:text="index" />
+
+                    <TextView
+                        android:id="@+id/tvMatchNumber2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="2dp"
+                        android:layout_weight="1"
+                        android:text="Match" />
+
+                    <TextView
+                        android:id="@+id/tvMatchDate2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:layout_weight="1"
+                        android:text="Date" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="4dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/imgTeam1B"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/logo_na"/>
+
+                        <TextView
+                            android:id="@+id/tvTeam1B"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Team"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:layout_margin="4dp"
+                        android:text="vs"
+                        android:layout_gravity="center"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/imgTeam2B"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/logo_na"/>
+
+                        <TextView
+                            android:id="@+id/tvTeam2B"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Team"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvStadiumB"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:textAlignment="textEnd"
+                            android:layout_weight="1"
+                            android:text="Stadium"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/tvVenueB"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="textEnd"
+                            android:text="Venue"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/gradient_background"
+            android:gravity="end"
+            android:padding="2dp"
+            android:text="All Matches   "
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            android:layout_weight="1">
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rvAllMatches"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </ScrollView>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:adSize="BANNER"
+        app:adUnitId="@string/app_unit_id" />
+
+
+</LinearLayout>

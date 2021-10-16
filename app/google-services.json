@@ -1,0 +1,57 @@
+{
+  "project_info": {
+    "project_number": "793243420588",
+    "firebase_url": "https://ipl-2021-fans-game-default-rtdb.firebaseio.com",
+    "project_id": "ipl-2021-fans-game",
+    "storage_bucket": "ipl-2021-fans-game.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793243420588:android:05af351d6e6fa594bf5c09",
+        "android_client_info": {
+          "package_name": "com.jaesysz.ipl2021fansgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793243420588-33dgmqdu3bdh5tn5jcdve4ip87ioqb6v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jaesysz.ipl2021fansgame",
+            "certificate_hash": "fb274d090ddd0890ea007fa29f57506846bc821d"
+          }
+        },
+        {
+          "client_id": "793243420588-sncvtbgo7c5f4pomf9hrl1tfj6edkdml.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jaesysz.ipl2021fansgame",
+            "certificate_hash": "6f8716a5247ae10186b9b92b093a76968ba7d0e0"
+          }
+        },
+        {
+          "client_id": "793243420588-b6iq4q9el40655ffldt5a8v7b56aluk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEbHzvf6RnfonKH9D2rmyp4BlMac5roDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793243420588-b6iq4q9el40655ffldt5a8v7b56aluk9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-3970227840403386~7573386389"
+    }
+  ],
+  "configuration_version": "1"
+}

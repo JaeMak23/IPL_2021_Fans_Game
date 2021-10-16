@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">IPL 2021 Fans Game</string>
+    <string name="na">Loading...</string>
+    <string name="app_ads_txt">google.com, pub-3970227840403386, DIRECT, f08c47fec0942fa0</string>
+    <string name="admob_app_id">ca-app-pub-3970227840403386~7573386389</string>
+    <string name="admod_unit_id_banner">ca-app-pub-3970227840403386/7974703453</string>
+    <string name="admob_unit_id_banner_1"> ca-app-pub-3970227840403386/6271040869 </string>
+    <string name="admob_unit_id_test_banner">ca-app-pub-3940256099942544/6300978111</string>
+    <!-- <string name="app_unit_id">@string/admob_unit_id_banner_1</string>-->
+    <string name="app_unit_id">@string/admob_unit_id_test_banner</string>
+
+
+    <string name="sign_in">Sign in</string>
+    <string name="or">OR</string>
+    <string name="create_account">Create Account</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+
+    <integer name="dev_version">5</integer>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_advance_admin_login">AdvanceAdminLoginActivity</string>
+</resources>

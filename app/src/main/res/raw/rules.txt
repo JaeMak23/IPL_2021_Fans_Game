@@ -1,0 +1,41 @@
+RULES :
+-----------------
+
+IPL champion team : 500 points
+IPL runner up team : 300 points
+
+
+*****************
+Credit points based on scheduled matches: 
+
+If the predicted team wins 100 points gets credited. 
+
+If the  Match ends as draw 50 points gets credited.
+
+If no teams are predicted 0 points gets credited.
+
+Total win points =( win *100)+ (draw*50)
+
+
+
+*****************
+Digit points: 
+
+What is digit points: 
+
+Predicting single digit(from 0 to 9), scored by each team in every matches .Eg: If XYZ team scores 125/6 and the predicted single digit is 5 then points gets credited.
+
+
+If the predicted single digits of both teams are correct then 80 points with additional bonus of 40 points i.e  120 points gets credited. 
+
+If any one  of the predicted single digit of a  team is correct then 40 points gets credited. 
+
+A player in one match can get maximum 220 points  i.e  Win 100 points and if both digits are correct then 120, total 220. 
+
+*****************
+
+Criteria for Winning: 
+
+Total Points = Win Points + Digit Points + [Champion/Runner-up team] points
+
+*****************
